@@ -4,6 +4,8 @@ import React from "react";
 import {
   Button,
   Card,
+  CardHeader,
+  CardTitle,
   CardBody,
   CardFooter,
   CardText,
@@ -16,6 +18,18 @@ class UserProfile extends React.Component {
     return (
       <>
         <div className="content">
+          <Row>
+            <Col md="12">
+              <Card>
+                <CardHeader className="mb-5">
+                  <h1 className="card-category">Consultoria estratégica</h1>
+                  <CardTitle tag="h3">
+                    Data Strategy: Consultoria, análise e transformação de dados operacionais.
+                  </CardTitle>
+                </CardHeader>
+              </Card>
+            </Col>
+          </Row>
           <Row>
             <Col md="4">
               <Card className="card-user">
@@ -42,9 +56,11 @@ class UserProfile extends React.Component {
                 </CardBody>
                 <CardFooter>
                   <div className="button-container">
-                    <Button className="btn-icon btn-round" color="linkedin">
-                      <i className="fab fa-linkedin" />
-                    </Button>
+                    <a href="http://www.linkedin.com/in/rudson-rodrigues-32986915">
+                      <Button className="btn-icon btn-round" color="linkedin">
+                        <i className="fab fa-linkedin" />
+                      </Button>
+                    </a>
                     <Button className="btn-icon btn-round" color="facebook">
                       <i className="fab fa-facebook" />
                     </Button>
@@ -78,14 +94,16 @@ class UserProfile extends React.Component {
                     <p className="description">CFO/Co-Founder</p>
                   </div>
                   <div className="card-description">
-                    Empreendedor com experiência em projetos de TI, Alimentação, Industria Financeira e etc.
+                    Possui experiencia internacional, com projetos desenvolvidos para os segmentos: Educação, Prestação de Serviços, Setor Financeiro, Logística, Alimentação e outras.
                   </div>
                 </CardBody>
                 <CardFooter>
                   <div className="button-container">
-                    <Button className="btn-icon btn-round" color="linkedin">
-                      <i className="fab fa-linkedin" />
-                    </Button>
+                    <a href="http://www.linkedin.com/in/robsonlima">
+                      <Button className="btn-icon btn-round" color="linkedin">
+                        <i className="fab fa-linkedin"/>
+                      </Button>
+                    </a>
                     <Button className="btn-icon btn-round" color="facebook">
                       <i className="fab fa-facebook" />
                     </Button>
