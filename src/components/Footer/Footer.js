@@ -30,24 +30,23 @@ class Footer extends React.Component {
         <Container fluid>
           <Nav>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/?ref=bdr-user-archive-footer">Creative Tim</NavLink>
+              <NavLink href="#">Concert TI</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/presentation?ref=bdr-user-archive-footer">About Us</NavLink>
+              <NavLink href="#">About Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/blog?ref=bdr-user-archive-footer">Blog</NavLink>
+              <NavLink href="#">Blog</NavLink>
             </NavItem>
           </Nav>
           <div className="copyright">
-            © {new Date().getFullYear()} made with{" "}
-            <i className="tim-icons icon-heart-2" /> by{" "}
+            © {new Date().getFullYear()} made  by{" "}
             <a
-              href="https://www.creative-tim.com/?ref=bdr-user-archive-footer"
+              href="#"
               target="_blank"
             >
-              Creative Tim
-            </a>{" "}
+              Concert TI
+            </a>{"  "}
             for a better web.
           </div>
         </Container>
